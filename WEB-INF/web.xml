@@ -1,0 +1,18 @@
+<web-app>
+ <servlet>
+   <servlet-name>two</servlet-name>
+
+   <!-- className: RegistrationServlet -->
+   <servlet-class>RegistrationServlet</servlet-class>
+
+ </servlet>
+ <servlet-mapping>
+
+ <!-- registrationName:two -->
+    <servlet-name>two</servlet-name>
+
+   <!--  public url name: /register -->
+    <url-pattern>/register</url-pattern>
+
+</servlet-mapping>
+</web-app>
